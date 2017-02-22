@@ -1,0 +1,73 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif;
+}
+img {
+    /*La largeur maximale de l'img ne dépassera jamais la largeur de son parent*/
+    max-width: 100%;
+}
+label, input:not([type="submit"]) {
+    display: block;
+    width: 90%;
+}
+label {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+input {
+    padding: .5rem;
+}
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
+/* Header */
+header div {
+    max-width: 95rem;
+    margin: auto;
+    position: relative;
+}
+header {
+    background-color: #3b5997;
+    padding: 2rem;
+}
+header img {
+    width: 17rem;
+}
+header img, header form {
+    display: inline-block;
+    vertical-align: middle;
+}
+header section {
+    float: left;
+    width: 40%;
+}
+header section:last-of-type {
+    width: 20%;
+}
+header form {
+    width: 55rem;
+    position: absolute;
+    right: 0;
+}
+header a {
+    color: #9cb4d8;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+header [type="submit"] {
+    background-color: #4267b2;
+    border: solid .1rem #29487d;
+    color: #fff;
+    margin-top: 1.7rem;
+    padding: .7rem;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulaire de connexion AJAX + PHP</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <img src="img/logo_fb.jpg" alt="logo_fb.jpg">
+
+                <form action="connexion.php" method="POST">
+                    <section>
+                        <label for="userName">Adresse e-mail ou mobile</label>
+                        <input type="text" name="userName" placeholder="Votre login">
+                    </section>
+
+                    <section>
+                        <label for="userPwd">Mot de passe</label>
+                        <input type="password" name="userPwd" placeholder="Votre mot de passe">
+                        <a href="#">Informations de compte oubliées ?</a>
+                    </section>
+
+                    <section>
+                        <input type="submit" value="Connexion">
+                    </section>
+                </form>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <img src="img/map" alt="">
+            </section>
+            <section>
+                <!--Formulaire d'inscription-->
+            </section>
+        </main>
+
+        <footer>
+            <p>Liste des users connectés :</p>
+            <ul></ul>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
